@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    display: inline;
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    background-color: rgb(44, 228, 249);
+}
+
+nav {
+    background-color: white;
+    height: 8vh;
+    width: 19rem;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+
+}
+
+nav ul li {
+    list-style: none;
+
+}
+
+nav ul li a {
+    position: relative;
+    text-decoration: none;
+    display: flex;
+    /* padding: 5px 15px; */
+    /* padding-left: 0px; */
+    margin: 0px 10px;
+    font-size: 23px;
+    border-radius: 20px;
+    color: rgb(84, 198, 198);
+    text-transform: lowercase;
+    transition: all ease 1s;
+}
+
+
+nav ul li a i {
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    transition: all ease 1s;
+}
+
+
+nav ul li a:hover {
+    /* background-color: rgba(0, 0, 0, 0.171); */
+    transition: all ease 1s;
+    padding: 0px 15px;
+    padding-left: 0px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.251), inset -1px -1px 3px rgba(0, 0, 0, 0.306);
+
+}
+
+nav ul li a:hover h6 {
+
+    display: block;
+    padding: 5px 15px;
+    padding-left: 0px;
+    transition: all ease 1s;
+}
+
+nav ul li a h6 {
+    display: none;
+    position: relative;
+    top: 6px;
+
+}
